@@ -1,0 +1,29 @@
+.hero {
+    height: 710px;
+    display: flex;
+    justify-content: center;
+    background: url('../../Images/HeroBG.png');
+    position: relative;
+}
+
+.hero-card {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+.hero-card h1 {
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hero-card p {
+    font-size: 22px;
+}
+
+.hero-card img {
+    position: absolute;
+}
