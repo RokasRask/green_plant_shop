@@ -1,0 +1,10 @@
+.sectionTitle {
+    font-size: 56px;
+    font-weight: 600;
+    color: black;
+    font-family: "Poppins", serif;
+}
+
+.greenTitle {
+    color: var(--dGreen);
+}
