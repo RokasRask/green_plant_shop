@@ -1,0 +1,15 @@
+.hero-button {
+    background-color: white;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 24px 56px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.hero-button:hover {
+    background-color: var(--dGreen);
+    color: white;
+}
