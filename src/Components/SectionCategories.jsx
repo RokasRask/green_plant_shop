@@ -1,6 +1,6 @@
 import CategoriesList from "./CategoriesList";
 import Title from "./Title";
-import './ComponentStyles/SectionCategories';
+import './ComponentStyles/SectionCategories.css';
 
 
 export default function SectionCategories() {
