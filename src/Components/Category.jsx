@@ -1,14 +1,11 @@
 import './ComponentStyles/Category.css';
 
-export default function Category({ cardTitle, cardImg }) {
-
-    const path = '../Images/';
-    const imgSrc = `${path}${cardImg}`
+export default function Category({ title, imageSrc }) {
 
     return (
         <div className='card'>
-            <img className='cardImg' src={imgSrc} alt="" />
-            <h3 className='cardTitle'>{cardTitle}</h3>
+            <img className='cardImg' src={imageSrc} alt={title} />
+            <h3 className='cardTitle'>{title}</h3>
         </div>
     )
 }

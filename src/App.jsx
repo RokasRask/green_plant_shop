@@ -1,7 +1,8 @@
 import './App.css';
-import Category from './Components/Category';
+import CategoriesList from './Components/CategoriesList';
 import Header from './Components/Header';
 import Hero from './Components/Hero';
+import SectionCategories from './Components/SectionCategories';
 import Title from './Components/Title';
 import TopLine from './Components/TopLine';
 
@@ -12,8 +13,7 @@ function App() {
         <TopLine />
         <Header />
         <Hero />
-        <Title text1='Shop ' text2='by Category'/>
-        <Category cardTitle='Bonsai' cardImg='Bonsai.svg' />
+        <SectionCategories />
       </header>
     </div>
   );
