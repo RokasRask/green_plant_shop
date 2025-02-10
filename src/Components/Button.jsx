@@ -1,10 +1,14 @@
 import './ComponentStyles/Button.css';
-
-export default function Button() {
-
-    return (
-        <div className='wrapper'>
-            <button className='hero-button'>GET PLANTING</button>
-        </div>
-    )
+ 
+export default function Buttons({ className = '', children='shop', href='#', ...props }){
+    return(
+        <a  
+            className={`button ${className}`}
+            href={href}
+            target="_blank"
+        >
+            {children}
+        </a>
+    );
+ 
 }

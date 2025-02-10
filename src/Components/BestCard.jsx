@@ -1,0 +1,16 @@
+import './ComponentStyles/BestCard.css';
+import Button from "./Button";
+
+export default function BestCard({ title, imageSrc }) {
+    return (
+        <div className="best-card">
+            <a className="best-card-link">
+                <img className="best-img" src={imageSrc} alt={title} />
+                <div className="best-overlay">
+                    <h3 className="best-title">{title}</h3>
+                </div>
+            </a>
+            <Button className='green-btn'>Shop now</Button>
+        </div>
+    )
+}

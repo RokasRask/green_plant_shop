@@ -10,7 +10,7 @@ export default function Hero() {
                 <div className='wrapper hero-card'>
                     <h1>Plants are our Passion</h1>
                     <p>Even if you don’t have a green thumb, you can still have a green home.</p>
-                    <Button />
+                    <Button className='white-btn'>GET PLANTING</Button>
                 </div>
                 <img src={leaves1} alt="tree leaves" />
                 <img src={leaves2} alt="tree leaves" />
