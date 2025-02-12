@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import SectionCategories from './Components/SectionCategories';
 import TopLine from './Components/TopLine';
 import SectionBest from './Components/SectionBest';
+import SectionAllProducts from './Components/SectionAllProducts';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <SectionCategories />
         <SectionBest />
+        <SectionAllProducts />
       </header>
     </div>
   );
