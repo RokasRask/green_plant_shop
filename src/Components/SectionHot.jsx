@@ -1,8 +1,10 @@
 import Title from "./Title";
-import '../Components/ComponentStyles/SectionHot.css'
+import '../Components/ComponentStyles/SectionHot.css';
 import HotCardList from "./HotCardList";
 
 export default function SectionHot({ allProducts }) {
+
+    console.log(allProducts);
     return (
         <div className="light-bg">
             <div className="wrapper hot-section">

@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react"
 import SectionHot from "./SectionHot";
+import SectionDeals from "./SectionDeals";
 
 export default function SectionAllProducts() {
 
-    const { allProducts, setAllProducts } = useState([]);
+    const [allProducts, setAllProducts] = useState([]);
+
+    console.log(allProducts);
 
     useEffect(() => {
         const fetchAllProducts = async () => {
@@ -37,7 +40,8 @@ export default function SectionAllProducts() {
 
     return (
         <>
-        <SectionHot allProducts={allProducts} />
+            <SectionHot allProducts={allProducts} />
+            <SectionDeals allProducts={allProducts} />
         </>
     )
 }
