@@ -18,7 +18,7 @@ export default function SectionAllProducts() {
                 const allProductsWithImages = await Promise.all(data.map(async (product) => {
                     let imagePath;
                     try {
-                        imagePath = await import(`../Images/plants-data/${product.fileName}`);
+                        imagePath = await import(`../Images/plants-data/${product.image}`);
                     }
                     catch (error) {
                         imagePath = await import(`../Images/plants-data/empty.svg`);
