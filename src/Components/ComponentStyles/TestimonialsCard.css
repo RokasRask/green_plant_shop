@@ -1,0 +1,42 @@
+.testimonials-card {
+    background-color: white;
+    padding: 32px 30px 28px 30px;
+    max-width: 340px;
+    box-shadow: 0px 4px 24px rgba(139, 167, 178, 0.16);
+    border-radius: 6px;
+    width: 100%;
+}
+
+.test-card-text {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.test-client-text {
+    font-size: 22px;
+    line-height: 29px;
+    margin: 20px 0 6px 0;
+}
+
+.test-client-name {
+    font-size: 18px;
+    line-height: 27px;
+    color: #7C8087;
+    font-weight: 400;
+}
+
+.star {
+    font-size: 24px;
+    color: lightgrey;
+}
+
+.star.full {
+    color: var(--dGreen);
+}
+
+.star.half {
+    color: var(--dGreen);
+    background: linear-gradient(to right, var(--dGreen) 50%, lightgrey 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -5,6 +5,7 @@ import SectionCategories from './Components/SectionCategories';
 import TopLine from './Components/TopLine';
 import SectionBest from './Components/SectionBest';
 import SectionAllProducts from './Components/SectionAllProducts';
+import SectionTestimonials from './Components/SectionTestimonials';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <SectionCategories />
         <SectionBest />
         <SectionAllProducts />
+        <SectionTestimonials />
       </header>
     </div>
   );
