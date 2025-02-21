@@ -6,6 +6,7 @@ import TopLine from './Components/TopLine';
 import SectionBest from './Components/SectionBest';
 import SectionAllProducts from './Components/SectionAllProducts';
 import SectionTestimonials from './Components/SectionTestimonials';
+import SectionFooter from './Components/SectionFooter';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <SectionBest />
         <SectionAllProducts />
         <SectionTestimonials />
+        <SectionFooter />
       </header>
     </div>
   );
