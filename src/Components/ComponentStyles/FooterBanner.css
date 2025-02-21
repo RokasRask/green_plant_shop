@@ -1,0 +1,11 @@
+.footer-banner {
+    min-height: 55px;
+    background-color: var(--dGreen);
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
