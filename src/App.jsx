@@ -1,26 +1,26 @@
 import './App.css';
-import Header from './Components/Header';
-import Hero from './Components/Hero';
-import SectionCategories from './Components/SectionCategories';
-import TopLine from './Components/TopLine';
-import SectionBest from './Components/SectionBest';
-import SectionAllProducts from './Components/SectionAllProducts';
-import SectionTestimonials from './Components/SectionTestimonials';
-import SectionFooter from './Components/SectionFooter';
+import { Route, Routes } from 'react-router-dom';
+import MainLayout from './Layouts/MainLayout';
+import HomePage from './Pages/HomePage';
+import AboutPage from './Pages/AboutPage';
+import ContactPage from './Pages/ContactPage';
+import ProductsPage from './Pages/ProductsPage';
+import NotFoundPage from './Pages/NotFoundPage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <TopLine />
-        <Header />
-        <Hero />
-        <SectionCategories />
-        <SectionBest />
-        <SectionAllProducts />
-        <SectionTestimonials />
-        <SectionFooter />
-      </header>
+
+      <Routes>
+        <Route path='/' element={<MainLayout />}>
+          <Route index element={<HomePage />} />
+          <Route path='about' element={<AboutPage />} />
+          <Route path='contact' element={<ContactPage />} />
+          <Route path='products' element={<ProductsPage />} />
+          
+          <Route path='*' element={<NotFoundPage />} />
+        </Route>
+      </Routes>
     </div>
   );
 }
