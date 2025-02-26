@@ -1,21 +1,24 @@
 import './ComponentStyles/Hero.css';
-import leaves1 from '../Images/leaves1.png';
-import leaves2 from '../Images/leaves2.png';
 import Button from './Button';
 
-export default function Hero() {
-    return (
+export default function Hero(){
+    return(
         <>
-            <div className='hero'>
-                <div className='wrapper hero-card'>
-                    <h1>Plants are our Passion</h1>
-                    <p>Even if you don’t have a green thumb, you can still have a green home.</p>
-                    <Button className='white-btn'>GET PLANTING</Button>
+            <div className="hero-bg">
+                <div className="wrapper hero">
+                    <div className='hero-mid'>
+                        <h1 className='main-title'>Plants are our Passion</h1>
+                        <p className='slogan'>Even if you don’t have a green thumb, you can still have a green home.</p>
+                        <Button
+                           className="white-btn" 
+                        >
+                            Get Planting
+                        </Button>
+                    </div>
                 </div>
-                <img src={leaves1} alt="tree leaves" />
-                <img src={leaves2} alt="tree leaves" />
             </div>
-            <div className='green-border'></div>
+            <div className='dark-line'></div>
         </>
-    )
+    );
+
 }

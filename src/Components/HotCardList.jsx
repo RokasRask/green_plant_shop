@@ -10,6 +10,7 @@ export default function HotCardList({ allProducts, rating }) {
             {filteredProducts.map(card => (
                 <PlantCard
                     key={card.id}
+                    plantid={card.id}
                     imageSrc={card.imageSrc}
                     title={card.title}
                     price={card.price}
