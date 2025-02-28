@@ -4,6 +4,14 @@ import Button from "./Button";
 
 export default function PlantCard({ plantid, title, imageSrc, price, discount, showDiscount }) {
 
+    const plantData = {
+        plantid,
+        title,
+        imageSrc,
+        price,
+        discount
+    }
+
     const discountedPrice = (price * (1 - discount / 100)).toFixed(2);
 
     return(
@@ -11,6 +19,7 @@ export default function PlantCard({ plantid, title, imageSrc, price, discount, s
             <Link
                 className='plant-card-link'
                 to={`/products/${plantid}`}
+                state={plantData}
                 >
                 <div className='img-box'>
                     {  showDiscount && discount > 0 &&(
