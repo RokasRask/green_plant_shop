@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreen_plant_shop=self.webpackChunkgreen_plant_shop||[]).push([[10],{8010:(e,s,p)=>{e.exports=p.p+"static/media/hoya.2b9f3047c2753698252c.svg"}}]);

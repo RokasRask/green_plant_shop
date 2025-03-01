@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreen_plant_shop=self.webpackChunkgreen_plant_shop||[]).push([[106],{7106:(e,s,a)=>{e.exports=a.p+"static/media/bonsai.ea7a7e47249ed37f09a7.svg"}}]);

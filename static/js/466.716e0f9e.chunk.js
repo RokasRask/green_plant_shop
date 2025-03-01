@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreen_plant_shop=self.webpackChunkgreen_plant_shop||[]).push([[466],{3466:(e,s,p)=>{e.exports=p.p+"static/media/cactus.b7261cbafe5e320009cb.svg"}}]);

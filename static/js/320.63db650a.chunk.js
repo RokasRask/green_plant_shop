@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreen_plant_shop=self.webpackChunkgreen_plant_shop||[]).push([[320],{2320:(e,s,p)=>{e.exports=p.p+"static/media/string.7f6458cdf739935796d7.svg"}}]);

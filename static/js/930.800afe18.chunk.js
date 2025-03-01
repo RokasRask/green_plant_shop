@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreen_plant_shop=self.webpackChunkgreen_plant_shop||[]).push([[930],{2930:(e,s,a)=>{e.exports=a.p+"static/media/cacti.ad4d7fc73fad1d2ec592.svg"}}]);

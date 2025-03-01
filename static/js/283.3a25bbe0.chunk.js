@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreen_plant_shop=self.webpackChunkgreen_plant_shop||[]).push([[283],{3283:(e,p,s)=>{e.exports=s.p+"static/media/pineapple.0778f9c0d6283a878520.svg"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreen_plant_shop=self.webpackChunkgreen_plant_shop||[]).push([[702],{6702:(e,a,p)=>{e.exports=p.p+"static/media/dracaena.d1d5ea7740be7831d0fe.jpg"}}]);

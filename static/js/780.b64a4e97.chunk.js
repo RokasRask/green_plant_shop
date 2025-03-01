@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreen_plant_shop=self.webpackChunkgreen_plant_shop||[]).push([[780],{2780:(e,p,s)=>{e.exports=s.p+"static/media/variegated_succulent.65932029314d43cc866b.jpg"}}]);

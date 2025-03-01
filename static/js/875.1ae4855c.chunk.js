@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreen_plant_shop=self.webpackChunkgreen_plant_shop||[]).push([[875],{1875:(e,p,s)=>{e.exports=s.p+"static/media/philodendron.9c0b3671673fe02802cc.jpg"}}]);

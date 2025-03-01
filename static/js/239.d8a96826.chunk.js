@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreen_plant_shop=self.webpackChunkgreen_plant_shop||[]).push([[239],{8239:(e,p,a)=>{e.exports=a.p+"static/media/fiddle_leaf_fig.676ebca07034a2eb565c.jpg"}}]);

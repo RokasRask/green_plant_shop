@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreen_plant_shop=self.webpackChunkgreen_plant_shop||[]).push([[907],{2907:(e,p,a)=>{e.exports=a.p+"static/media/aloe_vera.6b6f7be21db0bcbac711.jpg"}}]);

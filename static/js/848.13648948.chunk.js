@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreen_plant_shop=self.webpackChunkgreen_plant_shop||[]).push([[848],{3848:(e,p,s)=>{e.exports=s.p+"static/media/orchid.245dd8d354c4a615e027.jpg"}}]);

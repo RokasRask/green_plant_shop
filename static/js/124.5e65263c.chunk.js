@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreen_plant_shop=self.webpackChunkgreen_plant_shop||[]).push([[124],{3124:(e,s,p)=>{e.exports=p.p+"static/media/jewel.c2dd4c442746b0fa0f1c.svg"}}]);

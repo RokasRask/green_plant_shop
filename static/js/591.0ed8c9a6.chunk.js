@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreen_plant_shop=self.webpackChunkgreen_plant_shop||[]).push([[591],{8591:(e,s,p)=>{e.exports=p.p+"static/media/succulents.57518c13488453954a57.svg"}}]);

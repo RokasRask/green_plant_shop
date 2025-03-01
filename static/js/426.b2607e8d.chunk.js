@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgreen_plant_shop=self.webpackChunkgreen_plant_shop||[]).push([[426],{3426:(e,s,p)=>{e.exports=p.p+"static/media/pothos.b3378e65921f36620981.svg"}}]);
