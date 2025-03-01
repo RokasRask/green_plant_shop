@@ -1,9 +1,9 @@
+import './ComponentStyles/PlantCard.css';
+import Button from './Button';
 import { Link } from 'react-router-dom';
-import '../Components/ComponentStyles/PlantCard.css'
-import Button from "./Button";
 
-export default function PlantCard({ plantid, title, imageSrc, price, discount, showDiscount }) {
-
+export default function PlantCard({plantid, title, imageSrc, price, discount, showDiscount}){
+    
     const plantData = {
         plantid,
         title,
@@ -12,15 +12,20 @@ export default function PlantCard({ plantid, title, imageSrc, price, discount, s
         discount
     }
 
+    // console.log(plantData);
+
+
     const discountedPrice = (price * (1 - discount / 100)).toFixed(2);
 
     return(
         <div className='plant-card'>
-            <Link
+            <Link 
                 className='plant-card-link'
                 to={`/products/${plantid}`}
                 state={plantData}
-                >
+            >
+              
+                
                 <div className='img-box'>
                     {  showDiscount && discount > 0 &&(
                         <div className='discount-block'>

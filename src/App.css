@@ -1,34 +1,4 @@
-/* .poppins-light {
-    font-family: "Poppins", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .poppins-regular {
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-semibold {
-    font-family: "Poppins", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-   */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-}
-
 :root {
-  --dGreen: #50806B;
-  --lGreen: #E8EDDE;
-  --red: #D11F1F;
-  --grey: #7C8087;
   --green: #50806B;
   --bggreen: #e8edde;
   --lgreen: #5bc08A;
@@ -37,11 +7,33 @@
   --textgrey: #7C8087;
   --white: #fff;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
 
 .wrapper {
   max-width: 1260px;
+  min-height: inherit;
   margin: 0 auto;
   padding: 0 20px;
   font-family: "Poppins", serif;
   font-style: normal;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.example {
+  font-weight: 600;
+  font-family: "Poppins", 'serif';
+  font-size: 48px;
+  text-align: center;
 }
