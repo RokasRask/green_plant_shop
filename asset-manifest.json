@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/green_plant_shop/static/css/main.f9698a19.css",
-    "main.js": "/green_plant_shop/static/js/main.812983ef.js",
+    "main.js": "/green_plant_shop/static/js/main.f0b2be90.js",
     "static/js/106.b9ee05f7.chunk.js": "/green_plant_shop/static/js/106.b9ee05f7.chunk.js",
     "static/js/930.800afe18.chunk.js": "/green_plant_shop/static/js/930.800afe18.chunk.js",
     "static/js/557.4e60d679.chunk.js": "/green_plant_shop/static/js/557.4e60d679.chunk.js",
@@ -84,11 +84,11 @@
     "static/media/linkedin.svg": "/green_plant_shop/static/media/linkedin.cc3298fcae3f1819bcb44c597f4160f0.svg",
     "static/media/facebook.svg": "/green_plant_shop/static/media/facebook.5dc221081a0aaf407942d1292219592b.svg",
     "main.f9698a19.css.map": "/green_plant_shop/static/css/main.f9698a19.css.map",
-    "main.812983ef.js.map": "/green_plant_shop/static/js/main.812983ef.js.map",
+    "main.f0b2be90.js.map": "/green_plant_shop/static/js/main.f0b2be90.js.map",
     "435.3feaa09a.chunk.js.map": "/green_plant_shop/static/js/435.3feaa09a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9698a19.css",
-    "static/js/main.812983ef.js"
+    "static/js/main.f0b2be90.js"
   ]
 }
